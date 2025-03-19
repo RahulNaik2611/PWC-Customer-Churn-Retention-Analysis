@@ -133,3 +133,11 @@ Insights Summary
 ✅ **Offer discounts & retention incentives** to high-risk customers 🎁.  
 
 
+👨‍💻 About Me
+Hello! I’m B Rahul Naik, a passionate data enthusiast with a strong interest in technology-driven solutions. I completed my B.Tech in Mechanical Engineering (2022), and since then, I have been actively expanding my expertise in data analytics, software development, and database management.
+
+🔹 Technical Skills:
+Programming & Backend Development: Java, Spring Boot, Python
+Databases & SQL: SQL, MongoDB, PostgreSQL, Microsoft SQL Server
+Data Analytics & Visualization: Power BI, Excel
+I enjoy working on data-driven projects and leveraging technology to create meaningful insights. Feel free to explore my work and connect with me! 🚀
