@@ -1,6 +1,7 @@
 # PWC-Customer-Churn-Retention-Analysis
 
 
+
 📌 Table of Contents
 Problem Statement
 Datasource
@@ -14,6 +15,7 @@ Recommendations
 🔹 The purpose of this analysis is to:
 
 ✅ Define key KPIs 📈
+
 ✅ Create a dashboard for the Retention Manager 👨‍💼
 ✅ Provide recommendations for reducing customer churn 🛑
 🔹 Key Data Points:
@@ -36,23 +38,23 @@ Recommendations
 🔹 Removed unnecessary columns & rows
 🔹 Ensured correct data types
 ✔ Loyalty Categorization (M-Formula):
-loyalty = SWITCH(TRUE(),
-    '01 Churn-Dataset'[tenure] <= 12, "< 1 year",
-    '01 Churn-Dataset'[tenure] <= 24, "< 2 years",
-    '01 Churn-Dataset'[tenure] <= 36, "< 3 years",
-    '01 Churn-Dataset'[tenure] <= 48, "< 4 years",
-    '01 Churn-Dataset'[tenure] <= 60, "< 5 years",
-    '01 Churn-Dataset'[tenure] <= 72, "< 6 years"
+    loyalty = SWITCH(TRUE(),
+        '01 Churn-Dataset'[tenure] <= 12, "< 1 year",
+        '01 Churn-Dataset'[tenure] <= 24, "< 2 years",
+        '01 Churn-Dataset'[tenure] <= 36, "< 3 years",
+        '01 Churn-Dataset'[tenure] <= 48, "< 4 years",
+        '01 Churn-Dataset'[tenure] <= 60, "< 5 years",
+        '01 Churn-Dataset'[tenure] <= 72, "< 6 years"
 )
 📐 Data Modeling
 📊 The dataset was cleaned and structured into tables for analysis & visualization.
 
 📊 Data Analysis (DAX)
-Key DAX Measures:
-Average MonthlyCharges = AVERAGE('01 Churn-Dataset'[MonthlyCharges])
-Average TotalCharges = AVERAGE('01 Churn-Dataset'[TotalCharges])
-Churn Count = CALCULATE(COUNT('01 Churn-Dataset'[Churn]), '01 Churn-Dataset'[Churn] = "Yes")
-Churn Rate % = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[Churn]), '01 Churn-Dataset'[Churn] = "Yes"), COUNT('01 Churn-Dataset'[Churn]), 0)
+    Key DAX Measures:
+    Average MonthlyCharges = AVERAGE('01 Churn-Dataset'[MonthlyCharges])
+    Average TotalCharges = AVERAGE('01 Churn-Dataset'[TotalCharges])
+    Churn Count = CALCULATE(COUNT('01 Churn-Dataset'[Churn]), '01 Churn-Dataset'[Churn] = "Yes")
+    Churn Rate % = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[Churn]), '01 Churn-Dataset'[Churn] = "Yes"), COUNT('01 Churn-Dataset'[Churn]), 0)
 
 📌 Additional measures calculated for:
 ✔ Dependent Customers
