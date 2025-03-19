@@ -47,7 +47,7 @@
 🔹 Ensured correct data types  
 
 ✔ **Loyalty Categorization (M-Formula):**  
-```powerquery
+powerquery
 loyalty = SWITCH(TRUE(),
     '01 Churn-Dataset'[tenure] <= 12, "< 1 year",
     '01 Churn-Dataset'[tenure] <= 24, "< 2 years",
@@ -92,20 +92,21 @@ Churn Rate % = DIVIDE(
 ✔ **Customer Risk Assessment**  
 ✔ **Service Subscription Overview**  
 
-### 📸 Screenshots of the Dashboard  
+## 📊 **Data Visualization (Dashboard)**  
+📌 **Dashboard Views:**  
+✔ **Customer Churn Analysis**  
+✔ **Customer Risk Assessment**  
+✔ **Service Subscription Overview**  
 
-#### **Customer Churn**  
-[![Customer Churn](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/raw/main/PowerBi_DashBoard/Screenshot/CustomerChurn.png)](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/blob/main/PowerBi_DashBoard/Screenshot/CustomerChurn.png)  
+📸 **Screenshots of the Dashboard**:  
 
-#### **Customer Risk**  
-[![Customer Risk](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/raw/main/PowerBi_DashBoard/Screenshot/customer%20Risk.png)](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/blob/main/PowerBi_DashBoard/Screenshot/customer%20Risk.png)  
+| Dashboard Section | Screenshot |
+|-------------------|------------|
+| **Customer Churn** | [![Customer Churn](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/blob/d6eafeea46aa632436ead3a5818da3b534283fbf/PowerBi_DashBoard/Screenshot/CustomerChurn.png)](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/blob/main/PowerBi_DashBoard/Screenshot/CustomerChurn.png) |
+| **Customer Risk** | [![Customer Risk](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/blob/d6eafeea46aa632436ead3a5818da3b534283fbf/PowerBi_DashBoard/Screenshot/customer%20Risk.png)](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/blob/main/PowerBi_DashBoard/Screenshot/customer%20Risk.png) |
+| **Services Analysis** | [![Services](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/blob/d6eafeea46aa632436ead3a5818da3b534283fbf/PowerBi_DashBoard/Screenshot/Services.png)](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/blob/main/PowerBi_DashBoard/Screenshot/Services.png) |
+| **Insights Summary** | [![Insights](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/blob/d6eafeea46aa632436ead3a5818da3b534283fbf/PowerBi_DashBoard/Screenshot/insights.png)](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/blob/main/PowerBi_DashBoard/Screenshot/insights.png) |
 
-#### **Services Analysis**  
-[![Services](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/raw/main/PowerBi_DashBoard/Screenshot/Services.png)](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/blob/main/PowerBi_DashBoard/Screenshot/Services.png)  
-
-#### **Insights Summary**  
-[![Insights](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/raw/main/PowerBi_DashBoard/Screenshot/insights.png)](https://github.com/RahulNaik2611/PWC-Customer-Churn-Retention-Analysis/blob/main/PowerBi_DashBoard/Screenshot/insights.png)  
-|
 
 
 Dashboard Section	Screenshot
